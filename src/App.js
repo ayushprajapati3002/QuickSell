@@ -1,8 +1,7 @@
 import React, { useEffect } from 'react'
 import './App.css';
 import TopNav from './components/TopNav/TopNav';
-// import Card from './components/Card/Card';
-import DashView from './components/DashBoard/DashView';
+import DashView from './components/DashBoard/DashVisible';
 import { useDispatch, useSelector} from 'react-redux'
 import { fetchAllData } from './Actions/DataAction';
 import Loading from './components/Loading/Loading';
